@@ -11,6 +11,16 @@ public class Producto implements Serializable {
     private BigDecimal precio;
     private Date createdOn;
 
+    private Integer port;
+
+    public Integer getPort() {
+        return port;
+    }
+
+    public void setPort(Integer port) {
+        this.port = port;
+    }
+
     public Long getId() {
         return id;
     }
