@@ -16,7 +16,7 @@ import java.util.List;
 public class ItemController {
 
     @Autowired
-    @Qualifier("serviceFeign")
+    @Qualifier("serviceRest")
     private ItemService itemService;
 
     @GetMapping
